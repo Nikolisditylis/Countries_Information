@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Note from './components/Note'
-import Courses from './components/Courses'
+
 import axios from 'axios'
-import noteService from './services/notes'
+
 
 /*
   const App = () => {
